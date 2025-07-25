@@ -251,24 +251,30 @@ a {
   color: var(--clr-gold-500);
 }
 
-.card--gold .card__button:hover {
-  color: var(--clr-white);
+@media (hover: hover) {
+  .card--gold .card__button:hover {
+    color: var(--clr-white);
+  }
 }
 
 .card--cyan .card__button {
   color: var(--clr-cyan-800);
 }
 
-.card--cyan .card__button:hover {
-  color: var(--clr-white);
+@media (hover: hover) {
+  .card--cyan .card__button:hover {
+    color: var(--clr-white);
+  }
 }
 
 .card--green .card__button {
   color: var(--clr-green-950);
 }
 
-.card--green .card__button:hover {
-  color: var(--clr-white);
+@media (hover: hover) {
+  .card--green .card__button:hover {
+    color: var(--clr-white);
+  }
 }
 
 /* End Own Css */
